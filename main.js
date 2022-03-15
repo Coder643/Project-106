@@ -5,7 +5,7 @@ function startClassification() {
         audio: true
     });
 
-    classifier = ml5.soundClassifier("https://teachablemachine.withgoogle.com/models/Fgu7p1nO4/model.json ", modelReady);
+    classifier = ml5.soundClassifier("https://teachablemachine.withgoogle.com/models/Atn-FHhwW/model.json ", modelReady);
 }
 
 function modelReady(){
